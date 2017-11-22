@@ -3,7 +3,7 @@
 return [
     'master' => [
         'user' => 'root',
-        'password' => 'hangcom',
+        'password' => 'xxxxxx',
         'dbms' => 'mysql',
         'host' => 'localhost',
         'dbname' => 'dzztest'
