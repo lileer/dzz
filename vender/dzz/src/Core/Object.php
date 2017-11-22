@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/9/8
- * Time: 下午2:35
- */
 
 namespace Dzz\Core;
-
 
 class Object
 {

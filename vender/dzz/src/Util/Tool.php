@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/9/9
- * Time: 下午5:53
- */
 
-namespace dzz\util;
+namespace Dzz\Util;
 
 
 class Tool

@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/9/9
- * Time: 下午3:08
- */
 
 namespace Dzz\Http;
-
 
 use Dzz\Core\Object;
 use Dzz\Pipeline\MiddlewareInterface;

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/9/28
- * Time: 下午2:46
- */
 
 namespace Common\Models;
 

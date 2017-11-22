@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/10/1
- * Time: 下午4:13
- */
 
 namespace Dzz\Mapper\Redis;
 

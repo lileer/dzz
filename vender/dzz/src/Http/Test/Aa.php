@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/9/13
- * Time: 下午3:00
- */
 
 namespace dzz\Http\Test;
-
 
 class Aa
 {

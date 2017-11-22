@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/9/27
- * Time: 下午3:18
- */
 
 namespace Dzz\Mapper\Mysql;
 

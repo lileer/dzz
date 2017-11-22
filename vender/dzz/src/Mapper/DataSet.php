@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/9/26
- * Time: 下午5:55
- */
 
 namespace Dzz\Mapper;
 

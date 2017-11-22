@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/9/23
- * Time: 下午3:16
- */
 
 namespace dzz\Core;
 

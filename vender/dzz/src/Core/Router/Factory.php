@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: biandapeng
- * Date: 17/10/19
- * Time: 上午9:46
- */
 
 namespace dzz\Core\Router;
 
