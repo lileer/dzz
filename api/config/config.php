@@ -10,4 +10,5 @@ return [
     'redis' => require_once 'redis.php',
     'format' => \Dzz\Http\Response::FORMAT_HTML,
     'default_action' => \Api\Controllers\Index::class . '::index',
+    'default_method' => 'index',
 ];

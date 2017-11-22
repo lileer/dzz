@@ -125,20 +125,27 @@ class Entity extends Object
         }
     }
 
-    /**
-     * 删除自己及关联数据
-     */
-    public function rdelete()
+    private function cascadDelete($callback)
     {
         $this->kdelete(false);
         $relations = $this->model->relations;
         if ($relations) {
             foreach ($relations as $val) {
                 if ($val->isDel) {
-                    QueryDelegate::kdeleteByField($val->initQuery($this));
+                    $callback($val);
                 }
             }
         }
+    }
+
+    /**
+     * 删除自己及关联数据
+     */
+    public function rdelete()
+    {
+        $this->cascadDelete(function ($val) {
+            QueryDelegate::kdeleteByField($val->initQuery($this));
+        });
     }
 
     /**
@@ -146,15 +153,9 @@ class Entity extends Object
      */
     public function redelete()
     {
-        $this->kdelete(false);
-        $relations = $this->model->relations;
-        if ($relations) {
-            foreach ($relations as $val) {
-                if ($val->isDel) {
-                    $val->initQuery($this)->delfor();
-                }
-            }
-        }
+        $this->cascadDelete(function ($val) {
+            $val->initQuery($this)->delfor();
+        });
     }
 
     public function collections($relation)

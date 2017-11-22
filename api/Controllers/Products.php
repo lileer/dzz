@@ -2,19 +2,14 @@
 
 namespace Api\Controllers;
 
-use Dzz\Core\Dzz;
-use Dzz\Core\ErrorHandler;
-use Dzz\Http\App;
-use Dzz\Mapper\Mysql\Filter;
-use dzz\Mapper\Mysql\Transaction;
-use Dzz\Mapper\Redis\Manager as RedisManager;
+use Api\Core\ApiController;
 
-
-class Products
+class Products extends ApiController
 {
 
-    public static function index($id)
+    public static function index()
     {
+
 //
 //        $filter = new Filter();
 //        $filter->where('id', '=', $id);

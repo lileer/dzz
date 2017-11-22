@@ -13,6 +13,7 @@ class Router extends Object
 
     protected $segments;
     protected $defaultAction;
+    protected $defaultMethod;
     protected $params;
 
     public function __construct()
@@ -24,6 +25,7 @@ class Router extends Object
     {
         $this->setSegment();
         $this->defaultAction = Dzz::$app->config['default_action'];
+        $this->defaultMethod = Dzz::$app->config['default_method'];
     }
 
     private function setSegment()
