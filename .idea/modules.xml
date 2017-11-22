@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/dzztest.iml" filepath="$PROJECT_DIR$/.idea/dzztest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evabot/.idea/evachat.iml" filepath="$PROJECT_DIR$/../evabot/.idea/evachat.iml" />
+    </modules>
+  </component>
+</project>
