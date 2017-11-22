@@ -1,13 +1,6 @@
 <?php
 /**
  * 模型过滤器
- *
- * PHP Version 5
- *
- * @package   Mapper
- * @author    Weber Liu <weber.liu@gmail.com>
- * @copyright 2010 Xingchangxinda Inc.
- * @version   SVN:$Id: filter.php 36 2012-03-21 07:54:30Z blue5tar $
  */
 
 namespace Dzz\Mapper\Mysql;
