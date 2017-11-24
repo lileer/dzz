@@ -10,4 +10,5 @@ class One extends \Api\Core\ApiController
         var_dump($params);
         var_dump(__METHOD__);
     }
+	//
 }
