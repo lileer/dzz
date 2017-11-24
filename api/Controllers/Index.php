@@ -11,4 +11,9 @@ class Index
         echo __METHOD__;
 		echo 'test';
     }
+
+	public static function test()
+	{
+		echo __METHOD__;
+	}
 }
