@@ -15,5 +15,6 @@ class Index
 	public static function test()
 	{
 		echo __METHOD__;
+		echo 2;
 	}
 }
